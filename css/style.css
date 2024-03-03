@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+.fon{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/фон.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header__top{
+    width: 100%;
+    background-color: #010101;
+    padding: 16px 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__link{
+    display: flex;
+    align-items: center;
+}
+
+.header__link i{
+    color: #4F8FF0;
+    font-size: 20px;
+    margin-right: 8px;
+    margin-left: 24px;
+}
+
+.header__link a{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    transition: 0.4s;
+}
+
+.header__link:nth-child(1) a:hover{
+    color: #4F8FF0;
+}
+
+.header__link:nth-child(2) a:hover{
+    color: #4F8FF0;
+}
+
+.header__zvonok a{
+    padding-right: 24px;
+    transition: 0.4s;
+    color: #4F8FF0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.header__zvonok:hover a{
+    color: white;
+}
+
+/*header*/
+
+header{
+    background-color: #010101C2;
+    padding: 25px 0;
+}
+
+.header__flex{
+    margin: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    gap: 32px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.logo__text{
+    width: 100%;
+    max-width: 312px;
+}
+
+#pravo{
+    color: #4F8FF0;
+}
+
+.logo__text h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+ul li a{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    transition: 0.4s;
+}
+
+ul li:hover a{
+    color: #4F8FF0;
+    text-decoration: underline;
+}
+
+/*main*/
+
+.main{
+    padding-top: 150px;
+}
+
+.flex__main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.main__block{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.main__block p{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+
+}
+
+.main__block h3{
+    font-size: 56px;
+    font-weight: 600;
+    color: #4F8FF0;
+}
+
+.main__block span{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.main__button{
+    max-width: 158px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.main__button a{
+    border-radius: 1px;
+    transition: 0.4s;
+    padding: 16px 24px;
+    font-size: 14px;
+    font-weight: 900;
+    color: white;
+    background-color: #4F8FF0;
+}
+
+.main__button:hover a{
+    color: #4F8FF0;
+    background-color: white;
+}
+
+
+/*section*/
+
+section{
+    background-color: #F7F7F7;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.section__zagolovok h3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.section__zagolovok h3::before{
+    bottom: -10px;
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #4F8FF0;
+}
+
+.section__zagolovok p{
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 24px;
+}
+
+.section__flex{
+    padding: 48px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section__block{
+    transition: 0.3s linear;
+    background-color: white;
+    width: 100%;
+    max-width: 424px;
+    margin: 38px 20px 0 0;
+}
+
+.section__block:hover{
+    background-color: #4F8FF0;
+    cursor: pointer;
+    color: white;
+}
+
+.section__block:hover i{
+    color: white;
+}
+
+
+.section__block__flex{
+    margin: 60px 32px;
+}
+
+.section__block__flex i{
+    font-size: 35px;
+    color: #4F8FF0;
+    padding-bottom: 15px;
+}
+
+.section__block__flex h4{
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.section__block__flex span{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.section__button{
+    max-width: 158px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.section__button a{
+    border-radius: 1px;
+    transition: 0.4s;
+    padding: 16px 24px;
+    font-size: 14px;
+    font-weight: 900;
+    color: white;
+    background-color: #4F8FF0;
+}
+
+.section__button:hover a{
+    background-color: white;
+    border: 1px solid #4F8FF0;
+    color: #4F8FF0;
+}
+
+
+/*section__one*/
+
+.section__one{
+    padding: 80px 10px 50px 10px;
+    background-color: white;
+    width: 100%;
+}
+
+.section__one__flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section__one__block{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding-right: 60px;
+}
+
+.section__one__block h3{
+    position: relative;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    padding-bottom: 30px;
+}
+
+.section__one__block h3::before{
+    bottom: 15px;
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #4F8FF0;
+}
+
+.section__one__block p{
+    padding-bottom: 30px;
+}
+
+.section__one__buttom__flex{
+    padding-bottom: 80px;
+    padding-top: 32px;
+    display: flex;
+}
+
+.section__one__buttom{
+    margin-right: 24px;
+
+}
+
+.section__one__buttom a{
+    font-size: 14px;
+    font-weight: 900;
+    color: white;
+    background-color: #4F8FF0;
+    padding: 16px 24px 16px 24px;
+    transition: 0.4s;
+    border: 1px solid #4F8FF0;
+}
+
+.section__one__buttom:hover a{
+    background-color: white;
+    color: #4F8FF0;
+    border: 1px solid #4F8FF0;
+}
+
+/* .section__one__buttom-2{
+
+} */
+
+.section__one__buttom-2 a{
+    font-size: 14px;
+    font-weight: 900;
+    padding: 16px 24px 16px 24px;
+    color: black;
+    background-color: #E6E6E6;
+    transition: 0.4s;
+}
+
+.section__one__buttom-2:hover a{
+    background-color: black;
+    color: white;
+}
+
+
+/* .section__one__img{
+    
+} */
+
+.section__one__img img{
+    width: 100%;
+    max-width: 535px;
+    height: auto;
+}
+
+
+/*section__two*/
+
+.section__two{
+    background-color: #F7F7F7;
+    padding: 80px 0;
+}
+
+.section__two__zagolovok{
+    text-align: center;
+    padding-bottom: 48px;
+    padding: 0px 20px;
+}
+
+.section__two__zagolovok h3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.section__two__zagolovok h3::before{
+    bottom: -10px;
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #4F8FF0;
+}
+
+.section__two__zagolovok p{
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 24px;
+}
+
+.section__two__flex{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section__two__block{
+    position: relative;
+    text-align: center;
+    margin-right: 12px;
+    margin-left: 12px;
+    width: 100%;
+    max-width: 312px;
+    height: auto;
+    background-color: white;
+    padding-bottom: 24px;
+    overflow: hidden;
+}
+
+.section__two__block:nth-child(4){
+    margin-right: 0px;
+}
+
+.section__two__block img{
+    width: 100%;
+    max-width: 312px;
+    height: auto;
+}
+
+.section__two__block h5{
+    padding: 24px 24px 0 24px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.section__two__block span{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+.section__two__white{
+    left: -500px;
+    transition: 0.5s linear;
+    opacity: 0;
+    padding: 20px 20px 35px 20px;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    max-width: 312px;
+    background-color: white;
+    color: black;
+}
+
+.section__two__block:hover .section__two__white{
+    left: 0;
+    opacity: 1;
+    box-shadow: 0px 0px 0px 1px #4F8FF0;
+}
+
+
+.section__two__white h5{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.section__two__white span{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.section__two__white p{
+    text-align: start;
+    padding: 40px 0 20px 0;
+}
+
+
+
+
